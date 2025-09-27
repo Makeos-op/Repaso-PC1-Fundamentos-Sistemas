@@ -23,9 +23,9 @@ Aplicación desarrollada en **C# con Windows Forms** para el empadronamiento de 
 ## ✅ Checklist de Funcionalidades
 
 - [x] **Clases definidas correctamente** (`Almacen`, `Servicio`) **(2 pts)**
-- [ ] **Registrar y mostrar almacenes**  
+- [x] **Registrar y mostrar almacenes**  
   - Uso de `ComboBox` para seleccionar el **tipo de almacén**. **(3 pts)**
-- [ ] **Registrar y mostrar servicios de un almacén**  
+- [x] **Registrar y mostrar servicios de un almacén**  
   - Uso de `ComboBox` para seleccionar la **categoría del servicio**. **(4 pts)**
 - [x] **Validación de códigos únicos**  
   - Tanto en almacenes como en servicios. **(2 pts)**
