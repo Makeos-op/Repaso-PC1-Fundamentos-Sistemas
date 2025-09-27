@@ -11,7 +11,7 @@ namespace Repaso_PC1_Fundamentos_Sistemas.services
     internal class AlmacenService
     {
         private AlmacenRepository almacenRepository = new AlmacenRepository();
-        bool Registrar(Almacen Almacen)
+        public bool Registrar(Almacen Almacen)
         {
             if (almacenRepository.ExisteAlmacen(Almacen.Codigo))
             {

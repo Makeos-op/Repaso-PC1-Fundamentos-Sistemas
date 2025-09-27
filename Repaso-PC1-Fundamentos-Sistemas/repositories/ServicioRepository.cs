@@ -21,5 +21,11 @@ namespace Repaso_PC1_Fundamentos_Sistemas.repositories
             Almacen almacen = almacenes.Find(a => a.Codigo.Equals(CodigoAlmacen));
             almacen.Servicios.Add(servicio);
         }
+        public static List<Servicio> ListarServiciosenAlmacen(string codigoalmacen)
+        {
+            List<Almacen> almacenes = AlmacenRepository.ListarAlmacenes();
+            Almacen Almacen = almacenes.Find(a => a.Codigo.Equals(codigoalmacen));
+            return Almacen.Servicios;
+        }
     }
 }

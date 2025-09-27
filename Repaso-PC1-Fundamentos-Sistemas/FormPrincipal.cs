@@ -16,5 +16,22 @@ namespace Repaso_PC1_Fundamentos_Sistemas
         {
             InitializeComponent();
         }
+
+        private void RegistroAlmacen_Click(object sender, EventArgs e)
+        {
+            FormAlmacen form = new FormAlmacen();
+            form.Show();
+        }
+
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnReporte_Click(object sender, EventArgs e)
+        {
+            FormReporte form = new FormReporte();
+            form.Show();
+        }
     }
 }

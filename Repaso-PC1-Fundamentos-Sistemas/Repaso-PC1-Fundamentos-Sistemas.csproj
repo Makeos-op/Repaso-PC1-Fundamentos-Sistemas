@@ -48,11 +48,29 @@
   <ItemGroup>
     <Compile Include="entities\Almacen.cs" />
     <Compile Include="entities\Servicio.cs" />
+    <Compile Include="FormAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlmacen.Designer.cs">
+      <DependentUpon>FormAlmacen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporte.Designer.cs">
+      <DependentUpon>FormReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormServicio.Designer.cs">
+      <DependentUpon>FormServicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +78,18 @@
     <Compile Include="repositories\ServicioRepository.cs" />
     <Compile Include="services\AlmacenService.cs" />
     <Compile Include="services\ServicioService.cs" />
+    <EmbeddedResource Include="FormAlmacen.resx">
+      <DependentUpon>FormAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporte.resx">
+      <DependentUpon>FormReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormServicio.resx">
+      <DependentUpon>FormServicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
