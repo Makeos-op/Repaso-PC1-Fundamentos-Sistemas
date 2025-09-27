@@ -1,4 +1,4 @@
-# Repaso-PC1-Fundamentos-Sistemas: Sistema de Gestión de Almacenes
+# Repaso PC1 Fundamentos Sistemas: Sistema de Gestión de Almacenes
 
 Aplicación desarrollada en **C# con Windows Forms** para el empadronamiento de almacenes ubicados en el **Puerto de Chancay**, que permite registrar sus servicios y generar reportes.
 
