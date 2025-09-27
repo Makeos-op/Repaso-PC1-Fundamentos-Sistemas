@@ -27,10 +27,10 @@ Aplicación desarrollada en **C# con Windows Forms** para el empadronamiento de 
   - Uso de `ComboBox` para seleccionar el **tipo de almacén**. **(3 pts)**
 - [ ] **Registrar y mostrar servicios de un almacén**  
   - Uso de `ComboBox` para seleccionar la **categoría del servicio**. **(4 pts)**
-- [ ] **Validación de códigos únicos**  
+- [x] **Validación de códigos únicos**  
   - Tanto en almacenes como en servicios. **(2 pts)**
-- [ ] **Asignar múltiples servicios a un almacén**  
+- [x] **Asignar múltiples servicios a un almacén**  
   - Sin permitir duplicados. **(3 pts)**
-- [ ] **Reporte: Almacenes por tipo**  
+- [x] **Reporte: Almacenes por tipo**  
   - Ingresa un tipo → devuelve lista de almacenes del mismo tipo. **(3 pts)**
-- [ ] **Reporte: Almacenes sin servicios registrados** **(3 pts)**
+- [x] **Reporte: Almacenes sin servicios registrados** **(3 pts)**
